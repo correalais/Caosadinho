@@ -191,7 +191,7 @@ h2:after {
 }
 
 
-@media only screen and (min-width:590px) {
+@media only screen and (max-width:590px) {
 
     .texto1{
         display: none;
@@ -199,6 +199,18 @@ h2:after {
 
     .hero-text-box{
         margin-top: 80px;
+        margin-left: 15px;        
+    }
+}
+
+@media only screen and (max-height:640px) {
+
+    .texto1{
+        display: none;
+    }
+
+    .hero-text-box{
+        margin-top: 150px;
         margin-left: 15px;        
     }
 }
